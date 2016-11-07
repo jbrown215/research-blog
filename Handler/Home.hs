@@ -13,7 +13,7 @@ getHomeR = defaultLayout[whamlet|
 <article style=width:800px;margin-left:auto;margin-right:auto>
   <h1> APrICoT
   <h2> Overview
-  <p> APrICoT, or Awesome Predicates Inferred Courtest of Types 
+  <p> APrICoT, or Awesome Predicates Inferred Courtesy of Types, 
       is a project in development at Carnegie Mellon University under
       <a href=http://www.jeanyang.com>Jean Yang.
   <p> We plan to make a static analysis tool that will automatically repair 
