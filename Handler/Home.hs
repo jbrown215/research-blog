@@ -14,7 +14,7 @@ getHomeR = defaultLayout[whamlet|
   <h1> APrICoT
   <h2> Overview
   <p> APrICoT, or Awesome Predicates Inferred Courtest of Types 
-      is a project in development at Carnegie Melon University under
+      is a project in development at Carnegie Mellon University under
       <a href=http://www.jeanyang.com>Jean Yang.
   <p> We plan to make a static analysis tool that will automatically repair 
       code that has privacy leaks in the program’s information flow. 
