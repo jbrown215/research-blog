@@ -90,6 +90,8 @@ instance Yesod App where
         (title, parents) <- breadcrumbs
 
         -- Define the menu items of the header.
+        let menuItems = []
+        {-|
         let menuItems =
                 [ NavbarLeft $ MenuItem
                     { menuItemLabel = "Home"
@@ -101,17 +103,7 @@ instance Yesod App where
                     , menuItemRoute = ProfileR
                     , menuItemAccessCallback = isJust muser
                     }
-                , NavbarRight $ MenuItem
-                    { menuItemLabel = "Login"
-                    , menuItemRoute = AuthR LoginR
-                    , menuItemAccessCallback = isNothing muser
-                    }
-                , NavbarRight $ MenuItem
-                    { menuItemLabel = "Logout"
-                    , menuItemRoute = AuthR LogoutR
-                    , menuItemAccessCallback = isJust muser
-                    }
-                ]
+                ]-}
 
         let navbarLeftMenuItems = [x | NavbarLeft x <- menuItems]
         let navbarRightMenuItems = [x | NavbarRight x <- menuItems]
