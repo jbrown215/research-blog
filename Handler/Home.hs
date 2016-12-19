@@ -25,4 +25,12 @@ getHomeR = defaultLayout[whamlet|
       automatically using program synthesis tools.
   <p> You can find the project proposal 
       <a href=static/reports/APrICoTProjectProposal.pdf>here.
+  <table>
+      <tr>
+        <th>
+          Milestone updates
+      <tr>
+          <td>
+             <a href=static/reports/Milestone1.pdf>
+                 Milestone 1 update.
 |]
