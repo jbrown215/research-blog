@@ -41,4 +41,8 @@ getHomeR = defaultLayout[whamlet|
           <td>
              <a href=static/reports/Milestone3.pdf>
                  Milestone 3 update.
+      <tr>
+          <td>
+             <a href=static/reports/Milestone4.pdf>
+                 Milestone 4 update.
 |]
